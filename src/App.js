@@ -1,7 +1,12 @@
-import logo from "./logo.svg";
+import React from "react";
+import { Hero } from "./components/hero";
+import { Navbar } from "./components/navbar";
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 }
-
-export default App;
